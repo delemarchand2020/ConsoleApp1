@@ -12,7 +12,9 @@ namespace ConsoleApp1
 			int c;
 
 			c = a & b;
-			Console.WriteLine("c=" + c.ToString());
+			Console.WriteLine("c = a and b : " + c.ToString());
+			c = a | b;
+			Console.WriteLine("c = a or b : " + c.ToString());
 		}
 	}
 }
