@@ -11,6 +11,8 @@ namespace ConsoleApp1
 			int b = 0b0011;
 			int c;
 
+			Console.WriteLine("a: " + a.ToString() + " b: " + b.ToString());
+
 			c = a & b;
 			Console.WriteLine("c = a and b : " + c.ToString());
 			c = a | b;
